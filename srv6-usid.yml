@@ -9,35 +9,35 @@ topology:
   nodes:
     xr01:
       kind: cisco_xrd
-      image: ios-xr/xrd-control-plane:7.9.2
+      image: ios-xr/xrd-control-plane:7.10.2
       mgmt-ipv4: 172.30.5.201
       mgmt-ipv6: 2001:172:30:5::201
       startup-config: srv6-usid_config/xr01.cfg
 
     xr02:
       kind: cisco_xrd
-      image: ios-xr/xrd-control-plane:7.9.2
+      image: ios-xr/xrd-control-plane:7.10.2
       mgmt-ipv4: 172.30.5.202
       mgmt-ipv6: 2001:172:30:5::202
       startup-config: srv6-usid_config/xr02.cfg
 
     xr03:
       kind: cisco_xrd
-      image: ios-xr/xrd-control-plane:7.9.2
+      image: ios-xr/xrd-control-plane:7.10.2
       mgmt-ipv4: 172.30.5.203
       mgmt-ipv6: 2001:172:30:5::203
       startup-config: srv6-usid_config/xr03.cfg
 
     xr04:
       kind: cisco_xrd
-      image: ios-xr/xrd-control-plane:7.9.2
+      image: ios-xr/xrd-control-plane:7.10.2
       mgmt-ipv4: 172.30.5.204
       mgmt-ipv6: 2001:172:30:5::204
       startup-config: srv6-usid_config/xr04.cfg
 
     xr05:
       kind: cisco_xrd
-      image: ios-xr/xrd-control-plane:7.9.2
+      image: ios-xr/xrd-control-plane:7.10.2
       mgmt-ipv4: 172.30.5.205
       mgmt-ipv6: 2001:172:30:5::205
       startup-config: srv6-usid_config/xr05.cfg
