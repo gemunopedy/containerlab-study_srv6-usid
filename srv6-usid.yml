@@ -44,11 +44,7 @@ topology:
 
   links:
     - endpoints: ["xr01:Gi0-0-0-1", "xr02:Gi0-0-0-0"]
-
     - endpoints: ["xr02:Gi0-0-0-1", "xr03:Gi0-0-0-0"]
-   
     - endpoints: ["xr03:Gi0-0-0-1", "xr04:Gi0-0-0-0"]
-
     - endpoints: ["xr04:Gi0-0-0-1", "xr05:Gi0-0-0-0"]
-
     - endpoints: ["xr05:Gi0-0-0-1", "xr01:Gi0-0-0-0"]
